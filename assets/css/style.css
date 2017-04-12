@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background: white;
+}
+
+header {
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3.lead {
+  margin: 75px 0;
+  font-size: 5.2rem;
+}
+
+section {
+  padding: 55px 0;
+}
+
+section.grey {
+  background: #f8f8f9;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
