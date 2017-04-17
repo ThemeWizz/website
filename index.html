@@ -2,21 +2,19 @@
 layout: layout
 ---
 
-<div class="container">
+<main class="container">
   <div class="row">
     <div class="col-xs-12">
-      <h3 class="lead">We Build Beautiful <br /> Plugins &amp; Themes.</h3>
+      <h3>We Build Beautiful <br /> Plugins &amp; Themes.</h3>
     </div>
   </div>
-</div>
+</main>
 
 <section class="section">
   <div class="container">
     <div class="row">
       {% for theme in site.themes  %}
-        <div class="col-md-4">
-          {{theme.title}}
-        </div>
+        {% include thumbnail.html %}
       {% endfor %}
     </div>
   </div>

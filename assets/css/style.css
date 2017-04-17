@@ -10,7 +10,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   color: #333;
@@ -26,9 +26,42 @@ header h1 {
   font-weight: 600;
 }
 
-h3.lead {
+header h1 a {
+  color: #333;
+}
+
+header h1 a:hover {
+  text-decoration: none;
+}
+
+/*h3.lead {
   margin: 75px 0;
   font-size: 5.2rem;
+}*/
+
+main {
+  margin: 75px 0;
+}
+
+main h3 {
+  font-size: 5.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+main .btn {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  margin-right: 15px;
+}
+
+main .btn-group .btn {
+  margin-right: 0;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  width: 100%;
 }
 
 section {
@@ -39,7 +72,107 @@ section.grey {
   background: #f8f8f9;
 }
 
+.btn {
+  border-radius: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .15em;
+  font-weight: 600;
+}
+
+.btn-default,
+.btn-default:active,
+.btn-default:hover,
+.btn-default:focus {
+  border-color: #e6e6e6;
+}
+
+.btn-default:active,
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #e6e6e6;
+}
+
+.btn-action {
+  color: white;
+  background: #00badb;
+}
+
+.btn span {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  margin-right: 3px;
+}
+
+.theme-item {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 20px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.theme-item:hover {
+  background-color: #f8f8f9;
+}
+
+.browser {
+  background: #eee;
+  padding: 18px 1px 1px;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.06) 0px 3px 10px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.browser:before {
+  content: '...';
+  position: absolute;
+  top: -4px;
+  left: 7px;
+  font-size: 24px;
+  line-height: 10px;
+  color: #999;
+}
+
+.browser-image {
+  max-height: 600px;
+  overflow: auto;
+}
+
+.theme-item:hover .browser {
+  box-shadow: rgba(0,0,0,0.3) 0px 3px 10px;
+}
+
+.theme-item .browser img {
+  -webkit-transition: transform .3s ease-out;
+  transition: transform .3s ease-out;
+}
+
+.theme-item:hover .browser img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.preview-container {
+  padding: 40px;
+  background-color: #f8f8f9;
+}
+
+.content p {
+  margin-bottom: 25px;
+  line-height: 1.9em;
+}
+
 footer {
   margin-top: 40px;
   font-size: 1.2rem;
+  padding: 20px 0 40px;
 }
