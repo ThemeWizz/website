@@ -1,0 +1,60 @@
+---
+layout: layout
+title: "FAQ"
+
+questions:
+  - 
+    q: Can I try out a theme prior to purchase?
+    a: No, we do our best to showcase the themes as we'd see them being used.
+  
+  -
+    q: Can I install ThemeWizz themes on multiple sites?
+    a: Yes, you are free to use our products on unlimited domains.
+
+  -
+    q: Do you offer customization/design services?
+    a: No, we do not offer customization or design services.
+
+  -
+    q: Can I remove the ThemeWizz copyright from the footer?
+    a: Yes, you are free to change copyright information in the footer as you see fit.
+
+  -
+    q: How do I update my theme?
+    a: If your theme is out of date, you will see a notice on your WordPress Dashboard. Click the notice to get more complete information about the update as well as further instructions on how to update.
+
+  -
+    q: Can I easily translate a ThemeWizz theme?
+    a: All of our themes are localized and include default .po and .mo files. These are the files that you can use to easily translate a theme using Poedit. You can also use any one of the translation plugins available from <a href="http://wordpress.org" target="_blank">wordpress.org</a> to help you in the translation process.
+
+  - 
+    q: Can I use ThemeWizz themes on WordPress.com?
+    a: No, ThemeWizz themes are not available for use on a WordPress.com free hosted account.
+
+  -
+    q: Still have questions?
+    a: Support requests must be made using our <a href="/support">support page</a>. For general or pre-sale questions please email us <a href="mailto:hi@themewizz.com">here</a>.
+
+---
+
+<main class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h3>Frequently Asked Questions</h3>
+    </div>
+  </div>
+</main>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% for question in page.questions  %}
+        <div class="col-sm-6 col-md-6">
+          <h4>{{ question.q }}</h4>
+          <p>{{ question.a }}</p>
+          <p>&nbsp;</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

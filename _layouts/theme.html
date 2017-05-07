@@ -7,7 +7,7 @@ layout: layout
     <div class="col-xs-12 col-md-6">
       <h3>{{ page.title }}</h3>
     </div>
-    <div class="col-xs-12 col-md-6 text-right">
+    <div class="col-xs-12 col-md-6 text-right text-xs-center">
       {% if page.demo %}
         <a href="{{ page.demo }}" target="_blank" class="btn btn-lg btn-default">Demo</a>
       {% endif; %}
@@ -17,7 +17,7 @@ layout: layout
       {% endif; %}
 
       {% if page.free %}
-        <a href="{{ page.download }}" class="btn btn-lg btn-action">Download For Free</a>
+        <a href="{{ page.download }}" class="btn btn-lg btn-action"><span>Free</span> Download</a>
       {% endif; %}
     </div>
   </div>
@@ -26,12 +26,16 @@ layout: layout
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 content">
-        {{ content }}
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-4 content">
+        {{ content }}
+        <div class="well well-dark well-feature">
+          <h4>Features</h4>
+          <ul class="list-unstyled">
+            {% for feature in page.features  %}
+              <li><i class="fa fa-check"></i> {{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       <div class="col-md-7 col-md-offset-1">
         <div class="preview-container">

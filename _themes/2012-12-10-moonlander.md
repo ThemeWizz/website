@@ -6,6 +6,12 @@ description: "MOONLander is a simple, clean and fully responsive mobile friendly
 slug: "moonlander"
 price: 6
 demo: "http://demo.themewizz.com/wp-moonlander"
+features:
+  - Responsive Design
+  - Wordpress Compatible
+  - Countdown Clock
+  - MailChimp Integration
+  - Twitter Integration
 ---
 
 <h3 class="lead">MOONLander is a simple, clean and fully responsive mobile friendly landing page.</h3>

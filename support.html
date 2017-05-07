@@ -1,0 +1,61 @@
+---
+layout: layout
+title: "Support"
+---
+
+<main class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h3>Theme Support</h3>
+    </div>
+  </div>
+</main>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 content">
+        <p>Please be mindful of potentially slower response times due to time difference. Support covers getting setup, trouble
+          using any features, and bug fixes. <strong>Regretfully we cannot provide support for modifications or 3rd party plugins.</strong>
+        </p>
+        <p>For general or pre-sale questions please email us <a href="mailto:hi@themewizz.com">here</a>.</p>
+      </div>
+      <div class="col-md-8">
+        <div class="well">
+          <form class="form">
+            <input type="hidden" name="id" value="yO1h56aK4c" />
+            <div class="form-group">
+              <label for="support-name">Full Name</label>
+              <input type="text" class="form-control" id="support-name" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-group">
+              <label for="support-email">Email Address</label>
+              <input type="email" class="form-control" id="support-email" name="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <label for="support-theme">Theme</label>
+              <select class="form-control" id="support-theme" name="theme">
+                {% for theme in site.themes  %}
+                  <option value="{{ theme.title }}">{{ theme.title }}</option>
+                {% endfor %}
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="support-url">URL</label>
+              <input type="url" class="form-control" id="support-url" name="url" placeholder="URL" required />
+            </div>
+            <div class="form-group">
+              <label for="support-message">Message</label>
+              <textarea class="form-control" id="support-message" name="message" cols="30" rows="7" required></textarea>
+            </div>
+            <div class="alert alert-success">
+              <strong>Ticket Sent!</strong> We will respond as soon as possible.
+            </div>
+            <button type="submit" class="btn btn-action">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
