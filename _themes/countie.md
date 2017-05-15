@@ -1,17 +1,21 @@
 ---
 layout: theme
 title: "Countie"
-date: Jan. 14, 2013
-description: "Countie is a simple, clean and fully responsive mobile friendly landing page. Contains a customizable Countdown Clock and Twitter Feed plugins. WP Countie is a simple, clean and fully responsive mobile friendly landing page Wordpress plugin."
+date: Jan 14, 2013
+description: "Countie is a simple, clean and fully responsive mobile friendly landing page. Contains a customizable Countdown Clock and Twitter Feed plugins."
 slug: "countie"
 price: 6
-demo: "http://demo.themewizz.com/wp-countie"
+buy: "https://themeforest.net/item/countie-fullscreen-responsive-countdown-landing/3722789"
+demo: "http://demo.themewizz.com/countie"
 features:
+  - LESS Stylesheet
   - Responsive Design
-  - Wordpress Compatible
   - Countdown Clock
   - MailChimp Integration
   - Twitter Integration
+  - Retina-ready
+  - Documentation
+  - Top-notch support
 ---
 
 <h3 class="lead">Countie is a simple, clean and fully responsive mobile friendly landing page.</h3>

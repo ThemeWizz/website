@@ -1,0 +1,14 @@
+---
+layout: layout
+title: "Themes"
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% for theme in site.themes reversed %}
+        {% include thumbnail.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

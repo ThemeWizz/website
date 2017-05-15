@@ -2,3 +2,7 @@ collections:
   themes:
     output: true
     permalink: /:collection/:name
+
+  plugins:
+    output: true
+    permalink: /:collection/:name

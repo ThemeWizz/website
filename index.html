@@ -1,5 +1,12 @@
 ---
 layout: layout
+featured:
+  - /themes/simple
+  - /plugins/wp-bell
+  - /themes/writer
+  - /themes/wp-compass
+  - /plugins/wp-procount
+  - /plugins/wp-countie
 ---
 
 <main class="container">
@@ -13,7 +20,21 @@ layout: layout
 <section class="section">
   <div class="container">
     <div class="row">
-      {% for theme in site.themes  %}
+      {% assign items = "" | split: "" %}
+      {% for theme in site.themes %}
+          {% if page.featured contains theme.url %}
+            {% assign items = items | push: theme %}
+          {% endif %}
+      {% endfor %}
+
+      {% for plugin in site.plugins %}
+          {% if page.featured contains plugin.url %}
+            {% assign items = items | push: plugin %}
+          {% endif %}
+      {% endfor %}
+
+      {% assign sorted_items = items | sort: 'date' %}
+      {% for theme in sorted_items reversed %}
         {% include thumbnail.html %}
       {% endfor %}
     </div>

@@ -1,17 +1,21 @@
 ---
 layout: theme
 title: "MOONlander"
-date: Dec. 10, 2013
-description: "MOONLander is a simple, clean and fully responsive mobile friendly landing page. It contains a customizable Countdown Clock and Twitter Feed plugins. WP MOONlander is a simple, clean and fully responsive mobile friendly landing page Wordpress plugin."
+date: Dec 10, 2012
+description: "MOONLander is a simple, clean and fully responsive mobile friendly landing page. It contains a customizable Countdown Clock and Twitter Feed plugins."
 slug: "moonlander"
 price: 6
+buy: "http://themeforest.net/item/moonlander-responsive-countdown-landing-page/3502758?rel=sonnyt"
 demo: "http://demo.themewizz.com/wp-moonlander"
 features:
+  - LESS Stylesheet
   - Responsive Design
-  - Wordpress Compatible
   - Countdown Clock
   - MailChimp Integration
   - Twitter Integration
+  - Retina-ready
+  - Documentation
+  - Top-notch support
 ---
 
 <h3 class="lead">MOONLander is a simple, clean and fully responsive mobile friendly landing page.</h3>

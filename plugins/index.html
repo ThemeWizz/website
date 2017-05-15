@@ -1,0 +1,14 @@
+---
+layout: layout
+title: "Plugins"
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% for theme in site.plugins reversed %}
+        {% include thumbnail.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

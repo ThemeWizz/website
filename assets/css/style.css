@@ -302,6 +302,10 @@ select.form-control:active {
   } 
 }
 
+.text-success {
+  color: #00db7b;
+}
+
 .content p {
   margin-bottom: 25px;
   line-height: 1.9em;

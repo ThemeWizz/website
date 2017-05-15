@@ -1,15 +1,15 @@
 ---
 layout: theme
 title: "Happy"
-date: Nov 20. 2014
+date: Nov 20, 2014
 description: "Happy is a simple, clean and fully responsive mobile friendly landing page."
 slug: "happy"
 free: true
 demo: "http://demo.themewizz.com/happy"
 features:
   - Responsive Design
-  - Wordpress Compatible
   - Countdown Clock
+  - Retina-ready
 ---
 
 <h3 class="lead">Happy is a simple, clean and fully responsive mobile friendly landing page.</h3>

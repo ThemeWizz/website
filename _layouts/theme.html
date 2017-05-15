@@ -13,11 +13,11 @@ layout: layout
       {% endif; %}
 
       {% if page.price %}
-        <a href="{{ page.buy }}" class="btn btn-lg btn-action"><span>${{ page.price }}</span> Buy</a>
+        <a href="{{ page.buy }}" target="_blank" class="btn btn-lg btn-action"><span>${{ page.price }}</span> Buy</a>
       {% endif; %}
 
       {% if page.free %}
-        <a href="{{ page.download }}" class="btn btn-lg btn-action"><span>Free</span> Download</a>
+        <a href="{{ page.download }}" target="_blank" class="btn btn-lg btn-action"><span>Free</span> Download</a>
       {% endif; %}
     </div>
   </div>
@@ -32,7 +32,7 @@ layout: layout
           <h4>Features</h4>
           <ul class="list-unstyled">
             {% for feature in page.features  %}
-              <li><i class="fa fa-check"></i> {{ feature }}</li>
+              <li><i class="fa fa-check text-success"></i> {{ feature }}</li>
             {% endfor %}
           </ul>
         </div>
