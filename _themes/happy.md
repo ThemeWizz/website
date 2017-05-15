@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/happy/"
 layout: theme
 title: "Happy"
 date: Nov 20, 2014

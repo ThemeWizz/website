@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/writer/"
 layout: theme
 title: "Writer"
 date: Apr 10, 2014

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/countie/"
 layout: theme
 title: "Countie"
 date: Jan 14, 2013

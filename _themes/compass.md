@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/compass/"
 layout: theme
 title: "The Compass"
 date: Jul. 21, 2013

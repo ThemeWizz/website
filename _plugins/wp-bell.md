@@ -1,4 +1,5 @@
 ---
+redirect_from: "/plugins/wp-bell/"
 layout: theme
 title: "WP Bell"
 date: Apr 27, 2015

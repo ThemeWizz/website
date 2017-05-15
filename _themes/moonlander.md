@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/moonlander/"
 layout: theme
 title: "MOONlander"
 date: Dec 10, 2012

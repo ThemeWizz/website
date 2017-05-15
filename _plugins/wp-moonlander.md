@@ -1,4 +1,5 @@
 ---
+redirect_from: "/plugins/wp-moonlander/"
 layout: theme
 title: "WP MOONlander"
 date: Mar 29, 2014

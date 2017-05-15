@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/bell/"
 layout: theme
 title: "Bell"
 date: Jan 01, 2015

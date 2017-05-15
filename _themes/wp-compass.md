@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/wp-compass/"
 layout: theme
 title: "The WP Compass"
 date: Feb 15, 2014

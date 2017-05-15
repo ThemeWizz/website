@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/fullview/"
 layout: theme
 title: "Fullview"
 date: Apr 1, 2015

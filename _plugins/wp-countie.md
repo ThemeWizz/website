@@ -1,4 +1,5 @@
 ---
+redirect_from: "/plugins/wp-countie/"
 layout: theme
 title: "WP Countie"
 date: Mar 14, 2014

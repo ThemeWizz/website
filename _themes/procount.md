@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/procount/"
 layout: theme
 title: "PROCount"
 date: May 21, 2013

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/plugins/pricy/"
 layout: theme
 title: "Pricy"
 date: Apr 9, 2016

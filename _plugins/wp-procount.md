@@ -1,4 +1,5 @@
 ---
+redirect_from: "/plugins/wp-procount/"
 layout: theme
 title: "WP PROCount"
 date: Nov 4, 2013
