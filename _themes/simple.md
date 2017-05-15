@@ -1,4 +1,5 @@
 ---
+redirect_from: "/themes/simple/"
 layout: theme
 title: "Simple"
 date: Aug 03, 2015
@@ -7,7 +8,6 @@ slug: "simple"
 price: 25
 buy: "https://creativemarket.com/themewizz/233851-Simple-Clean-Bloggin-Theme"
 demo: "http://demo.themewizz.com/simple/"
-redirect_from: "/themes/simple/"
 features:
   - Responsive Design
   - Wordpress Compatible
