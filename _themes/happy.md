@@ -5,6 +5,7 @@ date: Nov 20, 2014
 description: "Happy is a simple, clean and fully responsive mobile friendly landing page."
 slug: "happy"
 free: true
+download: "https://github.com/ThemeWizz/happy-theme/archive/1.0.0.zip"
 demo: "http://demo.themewizz.com/happy"
 features:
   - Responsive Design
