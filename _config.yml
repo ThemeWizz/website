@@ -6,3 +6,6 @@ collections:
   plugins:
     output: true
     permalink: /:collection/:name
+
+gems:
+  - jekyll-redirect-from
