@@ -29,7 +29,7 @@
         $.post('https://themewizz.us3.list-manage.com/subscribe/post-json?u=c925dd68f67b59aef228dd601&amp;id=bd5afd4db0', data, null, 'jsonp')
          .always(success);
       } else {
-        $.post('https://ovkif3mmw2.execute-api.us-east-1.amazonaws.com/prod/themewizz-email', JSON.stringify(data), success);
+        $.post('http://files.oneclicklab.com/mail.php', JSON.stringify(data), success);
       }
     }
   });
