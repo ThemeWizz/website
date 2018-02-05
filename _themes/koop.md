@@ -4,7 +4,7 @@ title: "Koop"
 date: Nov 13, 2017
 description: "Koop is an elegant and powerful multipurpose WordPress blog theme perfect for any personal blog."
 slug: "koop"
-price: 59
+price: 49
 buy: "https://themeforest.net/item/koop-multipurpose-theme-and-social-feed/20120685"
 demo: "http://demo.themewizz.com/koop"
 features:
